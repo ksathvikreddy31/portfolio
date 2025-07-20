@@ -1,14 +1,13 @@
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
-
+import { TbBrandCpp } from "react-icons/tb";
+import { FaPython } from "react-icons/fa";
+import { PiFileSqlDuotone } from "react-icons/pi";
 const skills = [
   {
     skill: "HTML",
@@ -23,25 +22,25 @@ const skills = [
     icon: IoLogoJavascript,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
-  },
-  {
     skill: "ReactJS",
     icon: FaReact,
-  },
-  {
-    skill: "Redux",
-    icon: SiRedux,
-  },
-  {
-    skill: "NextJS",
-    icon: SiNextdotjs,
   },
   {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
   },
+  {
+    skill:"CPP",
+    icon: TbBrandCpp,
+  },
+  {
+    skill:"Python",
+    icon: FaPython,
+  },
+  {
+    skill:"MySQL",
+    icon: PiFileSqlDuotone,
+  }
 ];
 
 const AllSkillsSM = () => {
